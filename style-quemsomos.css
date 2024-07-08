@@ -16,7 +16,7 @@ body {
 
 .Imagens-textos{
     filter: grayscale(1);
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     display: inline-flex;
@@ -73,7 +73,8 @@ a:hover{
 }
 
 .JPConteudo {
-    padding: 100px;
+    padding: 70px;
+    padding-bottom: px;
     margin: 70px;
     overflow: hidden;
     background-color: white;
@@ -102,3 +103,5 @@ a:hover{
     width: 25px;
     height: 25px;
 }
+
+
