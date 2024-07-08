@@ -3,6 +3,8 @@ body {
     justify-content: space-around;
     align-items: center;
     background-color: #f4f4f4;
+    margin: 0px;
+    overflow: hidden;
 }
 
 .logo {
@@ -19,7 +21,6 @@ body {
     align-items: center;
     text-align: center;
     display: inline-flex;
-    margin: 50px;
 }
 
 .Imagens-textos img {
@@ -68,7 +69,7 @@ a:hover{
 .tudo-conteudo {
     align-items: center;
     text-align: center;  
-    padding: 67px;
+    padding: 6px;
   
 }
 
