@@ -44,11 +44,14 @@ button a {
 }
 
 input  {
-    border-radius: 15px;
+    border-radius: 3px;
     background-color: transparent;
     padding: 10px 35px;
     font-size: 14px;
-    padding-right: 130px
+    padding-right: 130px;
+    border-top: none ;
+    border-right: none;
+    border-left: none;
 }
 
 font a {   
@@ -58,6 +61,7 @@ font a {
 
 input:hover{
     background-color: rgb(211, 211, 211);
+
 }
 
 #login{
