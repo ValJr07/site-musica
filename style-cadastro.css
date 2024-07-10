@@ -5,11 +5,9 @@ body {
     height: 100vh;
     font-size: 30px;
     font-family: cursive;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: #bfbfbf;
+    background-color: #002e24;
     margin-top: -8px;
+    flex-direction: column;
 }
 
 
@@ -19,7 +17,7 @@ div.criacaodeconta {
     border-radius: 10px; 
     background-color: white;  
     box-shadow: 8px 5px 5px 1px ;
-    
+    margin: 50px; /*107px ele fica no max em cima */
 }
 h3 {
     margin: 20px;  
@@ -77,5 +75,8 @@ h6 {
     text-decoration: underline;
 }
 
-
-
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
