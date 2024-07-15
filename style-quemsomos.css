@@ -1,9 +1,9 @@
 body {
     font-family: cursive;
-    justify-content: space-around;
-    align-items: center;
     background-color: #f4f4f4;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo {
@@ -11,7 +11,6 @@ body {
     height: 50px;
     justify-content: flex-start;
     align-items: flex-start;
-    text-align: left;
 }
 
 .Imagens-textos{
@@ -19,21 +18,21 @@ body {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .Imagens-textos img {
-    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
-.Raphael {
-    margin: 50px;
-}
-.JPTudo {
-    margin: 50px;
-}
-.SamTudo {
-    margin: 50px;
+.imgVal{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    filter: grayscale(1);
 }
 
 a:hover{
@@ -104,4 +103,10 @@ a:hover{
     height: 25px;
 }
 
+.Imagens-textos div *{
+    text-align: center;
+}
 
+.logo2{
+    text-align: center;
+}
